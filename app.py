@@ -16,7 +16,7 @@ def main():
     st.title(APP_TITLE)
 
     #Import Data
-    gdf = gpd.read_file('C:/Users/923007690/Jupyter/Project_Kecamatan/Kabupaten_Final.shp')
+    gdf = gpd.read_file('https://raw.githubusercontent.com/avnore/Kabupaten/blob/main/Data/kabupaten_final.shp')
     LT = pd.read_excel('C:/Users/923007690/Jupyter/Project_Kecamatan/CB_FB_LT.xlsx')
 
     #Data Cleaning
