@@ -17,7 +17,7 @@ def main():
     st.title(APP_TITLE)
 
     #Import Data
-    gdf = gpd.read_file('https://raw.githubusercontent.com/avnore/Kabupaten/main/Data/kabupaten_final.shp')
+    gdf = gpd.read_file('https://raw.githubusercontent.com/avnore/Kabupaten/main/Data/kabupaten_Final.geojson')
     LT = pd.read_excel('https://raw.githubusercontent.com/avnore/Kabupaten/main/CB_FB_LT.xlsx')
 
     #Data Cleaning
