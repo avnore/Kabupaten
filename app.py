@@ -17,7 +17,7 @@ def main():
 
     #Import Data
     gdf = gpd.read_file('https://raw.githubusercontent.com/avnore/Kabupaten/blob/main/Data/kabupaten_final.shp')
-    LT = pd.read_excel('C:/Users/923007690/Jupyter/Project_Kecamatan/CB_FB_LT.xlsx')
+    LT = pd.read_excel('https://raw.githubusercontent.com/avnore/Kabupaten/blob/main/CB_FB_LT.xlsx')
 
     #Data Cleaning
     gdf = gdf.rename(columns={'Toko Podes': 'Podes'})
