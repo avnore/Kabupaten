@@ -4,6 +4,7 @@ import geopandas as gpd
 import numpy as np
 import folium
 import streamlit.components.v1 as components
+import openpyxl
 
 APP_TITLE = "William K*nt*l"
 
